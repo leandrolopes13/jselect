@@ -1,5 +1,8 @@
 # jSelect jQuery Plugin
 
+## Sponsor
+Publicidade BH - Apps, Sistemas e sites - https://www.publicidadebh.com.br/
+
 ## Overview
 
 The `jSelect` plugin is a jQuery-based custom select box plugin that enhances the functionality of standard HTML select elements. It provides support for multiple selections, search functionality, and custom styling.
