@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title></title>
-    <link href="jselect.min.css" rel="stylesheet" />
+    <link href="jselect.css" rel="stylesheet" />
     <link href="example.css" rel="stylesheet" />
 </head>
 
@@ -29,7 +29,9 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="jselect.jquery.min.js"></script>
     <script>
-        $('select').jSelect({});
+        $(document).ready(function(){
+            $('select').jSelect({});
+        });
     </script>
 </body>
 
