@@ -1,0 +1,68 @@
+.jselect-container {
+  position: relative;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.jselect-container.opened .jselect-items {
+  display: block;
+  margin-top: -2px;
+}
+.jselect-container .jselect-placeholder {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #444;
+  border: 1px #dee2e6 solid;
+  padding: 8px;
+  line-height: 1.5;
+  border-radius: 3px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 34px 12px;
+}
+.jselect-container .jselect-placeholder ~ .jselect-items.opened {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.jselect-container .jselect-search {
+  padding: 8px 12px 8px 12px;
+}
+.jselect-container .jselect-search input {
+  border: 0;
+  background-color: #dee2e6;
+  outline: none;
+  width: 100%;
+  padding: 4px;
+}
+.jselect-container .jselect-items {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  width: 99.88%;
+  border: 1px #dee2e6 solid;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  max-height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1;
+}
+.jselect-container .jselect-items::-webkit-scrollbar {
+  width: 5px;
+}
+.jselect-container .jselect-items::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.jselect-container .jselect-items .jselect-items-item {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #444;
+  padding: 6px 12px 6px 12px;
+}
+.jselect-container .jselect-items .jselect-items-item:hover, .jselect-container .jselect-items .jselect-items-item.active {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+/*# sourceMappingURL=jselect.css.map */
