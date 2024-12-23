@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="jselect.min.css" rel="stylesheet" />
+    <link href="example.css" rel="stylesheet" />
+</head>
+
+<body>
+    <select multiple data-search>
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+        <option value="5">Valor 5</option>
+        <option value="6">Valor 6</option>
+    </select>
+
+    <select data-search>
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+        <option value="5">Valor 5</option>
+        <option value="6">Valor 6</option>
+    </select>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="jselect.jquery.min.js"></script>
+    <script>
+        $('select').jSelect({});
+    </script>
+</body>
+
+</html>
