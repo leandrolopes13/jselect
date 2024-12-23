@@ -1,3 +1,14 @@
+/*!
+ * jQuery jSelect
+ * https://github.com/leandrolopes13/jselect
+ *
+ * Copyright 2024, Leandro Lopes
+ * Released under the MIT license
+ * 
+ * Version: 1.0.0
+ * Patreon: https://patreon.com/leandrolopes13
+ * Sponsor: https://www.publicidadebh.com.br/
+ */
 .jselect-container {
   position: relative;
   font-family: sans-serif;
@@ -6,6 +17,10 @@
 .jselect-container.opened .jselect-items {
   display: block;
   margin-top: -2px;
+}
+.jselect-container.opened .jselect-placeholder {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 .jselect-container .jselect-placeholder {
   -webkit-user-select: none;
@@ -21,19 +36,16 @@
   background-position: right center;
   background-size: 34px 12px;
 }
-.jselect-container .jselect-placeholder ~ .jselect-items.opened {
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
 .jselect-container .jselect-search {
   padding: 8px 12px 8px 12px;
 }
 .jselect-container .jselect-search input {
   border: 0;
-  background-color: #dee2e6;
+  background-color: #f5f5f5;
   outline: none;
   width: 100%;
-  padding: 4px;
+  padding: 6px;
+  border-radius: 3px;
 }
 .jselect-container .jselect-items {
   position: absolute;
