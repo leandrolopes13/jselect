@@ -23,6 +23,9 @@
   border-bottom-left-radius: 0px;
 }
 .jselect-container .jselect-placeholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -35,6 +38,10 @@
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 34px 12px;
+}
+.jselect-container .jselect-placeholder img {
+  height: 25px;
+  margin-right: 5px;
 }
 .jselect-container .jselect-search {
   padding: 8px 12px 8px 12px;
@@ -67,6 +74,9 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 .jselect-container .jselect-items .jselect-items-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -75,6 +85,10 @@
 }
 .jselect-container .jselect-items .jselect-items-item:hover, .jselect-container .jselect-items .jselect-items-item.active {
   background-color: rgba(0, 0, 0, 0.03);
+}
+.jselect-container .jselect-items .jselect-items-item img {
+  margin-right: 5px;
+  height: 25px;
 }
 
 /*# sourceMappingURL=jselect.css.map */
