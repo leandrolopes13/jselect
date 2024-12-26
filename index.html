@@ -50,7 +50,11 @@
     <script src="jselect.jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-            $('select').jSelect({});
+            $('select').jSelect({}).on('jSelect.change', function(event, values){
+                console.log('jSelect.change', event.target, values);
+            });
+            $('select:eq(0)').jSelect('setValue', [1, 2]);
+            $('select:eq(1)').jSelect('setValue', 1);
         });
     </script>
 </body>
