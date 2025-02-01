@@ -27,5 +27,6 @@
       "jselect.scss",
       "jselect.jquery.js"
     ]
-  }
+  },
+  "devDependencies": {}
 }
