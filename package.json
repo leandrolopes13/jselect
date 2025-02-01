@@ -1,6 +1,6 @@
 {
   "name": "@leandrolopes13/jselect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight and customizable JavaScript select/dropdown library with modern features.",
   "main": "jselect",
   "scripts": {
