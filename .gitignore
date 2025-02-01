@@ -2,3 +2,4 @@ node_modules/
 jselect.scss
 jselect.jquery.js
 .npmignore
+.github/
