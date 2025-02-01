@@ -1,4 +1,4 @@
-# JSelect
+# jSelect
 
 A lightweight and customizable JavaScript select/dropdown library with modern features.
 
