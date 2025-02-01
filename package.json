@@ -1,0 +1,30 @@
+{
+  "name": "@leandrolopes13/jselect",
+  "version": "1.0.2",
+  "description": "A lightweight and customizable JavaScript select/dropdown library with modern features.",
+  "main": "jselect",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "npmignore --auto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrolopes13/jselect.git"
+  },
+  "keywords": [
+    "jquery",
+    "select",
+    "combobox"
+  ],
+  "author": "leandrolopes13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leandrolopes13/jselect/issues"
+  },
+  "homepage": "https://github.com/leandrolopes13/jselect#readme",
+  "publishConfig": {
+    "ignore": [
+      "jselect.scss"
+    ]
+  }
+}
