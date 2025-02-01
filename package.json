@@ -24,7 +24,8 @@
   "homepage": "https://github.com/leandrolopes13/jselect#readme",
   "publishConfig": {
     "ignore": [
-      "jselect.scss"
+      "jselect.scss",
+      "jselect.jquery.js"
     ]
   }
 }
